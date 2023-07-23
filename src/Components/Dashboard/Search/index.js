@@ -6,7 +6,7 @@ const Search = ({search,onSearchChange}) => {
   return (
     <div className='search-flex'>
         <SearchRoundedIcon/>
-        <input placeholder='Search' 
+        <input placeholder='Search by Symbol or Name' 
         type='text' 
         value={search} 
         onChange={(e)=>onSearchChange(e)}

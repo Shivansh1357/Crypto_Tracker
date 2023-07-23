@@ -61,7 +61,6 @@
     z-index: 1;
     right:0;
 }
-
 @media only screen and (max-width:1250px){
     .left-component{
         width: 60%;

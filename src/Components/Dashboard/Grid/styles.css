@@ -3,7 +3,7 @@
     height:auto;
     background-color: var(--darkgrey);
     border-radius: 1rem;
-    border: 3px solid var(--darkgrey);
+    border: 2px solid var(--darkgrey);
     /* padding: 2rem; */
     cursor:pointer;
 }
@@ -61,7 +61,7 @@
     padding: .5rem 1.5rem;
     text-align: center;
     border-radius: 3rem;
-    border: 3px solid var(--green);
+    border: 2px solid var(--green);
     color: var(--green);
     min-width: 4rem;
     text-align: center;
@@ -72,7 +72,7 @@
     transition: all .3s;
 }
 .chip-red{
-    border: 3px solid var(--red) !important;
+    border: 2px solid var(--red) !important;
     color: var(--red) !important;
 }
 .chip-red:hover{
@@ -87,7 +87,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid var(--green);
+    border: 2px solid var(--green);
     color: var(--green);
     font-size: 1rem;
 }
@@ -119,7 +119,7 @@
     color: var(--green);
     font-size: 2rem !important;
     margin-left: auto;
-    border: 3px solid var(--green);
+    border: 2px solid var(--green);
     border-radius: 3rem;
     font-weight: 600;
   }
@@ -132,7 +132,7 @@
   
   .watchlist-icon-red {
     color: var(--red);
-    border: 3px solid var(--red);
+    border: 2px solid var(--red);
   }
   
   .watchlist-icon-red:hover {

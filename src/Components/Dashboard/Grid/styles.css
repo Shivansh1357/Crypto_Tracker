@@ -1,0 +1,148 @@
+.grid-container{
+    width:280px;
+    height:auto;
+    background-color: var(--darkgrey);
+    border-radius: 1rem;
+    border: 3px solid var(--darkgrey);
+    /* padding: 2rem; */
+    cursor:pointer;
+}
+.grid-container:hover{
+    border-color: var(--green);
+    transition: all .3s;
+}
+.grid-container-red:hover{
+    border-color: var(--red);
+    transition: all .3s;
+}
+.info-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:1rem;
+    margin:1.5rem;
+}
+.coin-logo{
+    height: 3.5rem;
+    width: 3.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.coin-name-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:.25rem;
+}
+.coin-symbol{
+    color: var(--white);
+    text-transform: uppercase;
+    font-size:1.2rem;
+    font-weight: 600;
+    margin: 0;
+}
+.coin-name{
+    color: var(--grey);
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin:0;
+}
+.chip-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap:1rem;
+    align-items: center;
+    margin: 1rem 1.5rem;
+}
+.chip-price{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: .5rem 1.5rem;
+    text-align: center;
+    border-radius: 3rem;
+    border: 3px solid var(--green);
+    color: var(--green);
+    min-width: 4rem;
+    text-align: center;
+}
+.chip-price:hover{
+    background-color: var(--green);
+    color: var(--white);
+    transition: all .3s;
+}
+.chip-red{
+    border: 3px solid var(--red) !important;
+    color: var(--red) !important;
+}
+.chip-red:hover{
+    background-color: var(--red) !important;
+    color: var(--white) !important;
+    transition: all .3s;
+}
+.icon-chip{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid var(--green);
+    color: var(--green);
+    font-size: 1rem;
+}
+
+.icon-chip:hover{
+    background-color: var(--green);
+    color: var(--white);
+    transition: all .3s;
+}
+
+.info-container{
+    margin:1.5rem;
+}
+.coin-price{
+    color: var(--green);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.total-volume{
+    color: var(--grey);
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.watchlist-icon {
+    padding: 0.5rem;
+    display: block;
+    color: var(--green);
+    font-size: 2rem !important;
+    margin-left: auto;
+    border: 3px solid var(--green);
+    border-radius: 3rem;
+    font-weight: 600;
+  }
+  
+  .watchlist-icon:hover {
+    background-color: var(--green);
+    color: var(--white);
+    transition: all 0.3s;
+  }
+  
+  .watchlist-icon-red {
+    color: var(--red);
+    border: 3px solid var(--red);
+  }
+  
+  .watchlist-icon-red:hover {
+    background-color: var(--red) !important;
+    color: var(--white);
+    transition: all 0.3s;
+  }
+  @media only screen and (max-width: 800px) {
+    .watchlist-icon {
+      font-size: 1rem !important;
+      padding: 0.35rem;
+    }
+  }
